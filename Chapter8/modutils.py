@@ -13,7 +13,7 @@ def find(txt):
     resp = []
 
     for path in sys.path:
-        mods = glob.glob('%s/*.py' % path)
+        mods = glob.glob('%s/*.xml' % path)
 
         for mod in mods:
             if txt in os.path.basename(mod):

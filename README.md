@@ -12,23 +12,10 @@ Several factors contributed to this change, such as the internet, open source so
 
 Among the dynamic languages, Python stands out as one of the most popular and powerful. There is a lively community of language users in the world, and this is reflected in active mailing lists and many tools available in open source.
 
-Learning a new programming language means learning to think differently. And learning a dynamic language represents an even harder paradigm shift for those people who have spent years developing in static languages.
+Learning a new programming language means learning to think differently. And learn a dynamic language represents a paradigm shift even harder for those people who have spent years developing in static languages.
 
-The e-book "Python para Desenvolvedores" ("Python for Developers") aimed to fill a gap, which was the lack of free courseware in Portuguese about the Python programming language. The work was adopted as support material for several universities in Brazil, served as a reference for academic papers and has been downloaded over 100,000 times from its official website.
+The e-book "Python para Desenvolvedores" ("Python for Developers") aimed to fill a gap, which was the lack of free courseware in Portuguese about the Python programming language. The work was adopted as a support material for several universities in Brazil, served as a reference for academic papers and has been downloaded over 100,000 times from its official website.
 
-This e-book was originally written in Portuguese and was translated by a small group of volunteers who do not speak English natively, so we ask for help from those who know the English language better, to refine the work, which we believe is a meaningful contribution to the Python users around the world.
+This e-book was originally written in Portuguese and was translated by a small group of volunteers who do not speak English natively, so we ask for help from those who know better the English language, to refine the work, which we believe is a meaningful contribution to the Python users around the world.
 
 Visit the e-book website: [http://ricardoduarte.github.io/python-for-developers/](http://ricardoduarte.github.io/python-for-developers/)
-
-Run in docker
--------------
-There is a dockerfile prepared to ease the deployment of the notebook.
-
-To build and run the container run the following commands
-
-```
-docker build -t python-for-developers:latest .
-docker run -itp 8888:8888 python-for-developers:latest
-```
-
-After this the notebook will be available at `http://localhost:8888` with the token printed to the terminal.
